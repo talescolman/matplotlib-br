@@ -1,0 +1,16 @@
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array(["PT", "IT", "ES", "DE", "FR", "CH", "IE"])
+y = np.array([276.000,161.000,156.000,144.000,81.000,75.000,50.000])
+
+plt.bar(x, y)
+plt.title("Number of Brazilians in EU")
+plt.show()
+
+
+# Complete data, I only used the countries where the population was 50k+
+# x = np.array(["PT, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+# y = np.array([276.000,161.000,156.000,144.000,81.000,75.000,50.000,40.000,32.000,16.000,10.000])
+
